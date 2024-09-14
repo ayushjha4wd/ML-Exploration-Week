@@ -1,1 +1,28 @@
+**The following is a point-by-point summary of the project's primary goals:**
 
+      1. Setup and Data Loading: The script loads data from a CSV file and imports pertinent libraries first. Categorical columns are converted to the proper type to facilitate simpler administration of visualizations.
+
+      2. Descriptive Statistics: The numerical data can be summarized by simply calling the describe() method.
+
+      3. Univariate Analysis: Bar graphs for categorical data and histograms for numerical data are used to understand the distribution of each variable.
+
+      4. Bivariate Analysis: Box plots and scatter plots are used to investigate relationships between two variables, such as Hours Studied vs Exam Score.
+
+      5. Multivariate analysis: Pair plots show correlations between numerous variables, and a 3D scatter plot shows three variables at once.
+
+      6. Heatmap: A correlation heatmap facilitates the visualization of the relationship between the variables.
+
+      7. Interactive Dashboard: Dash is used to construct an interactive dashboard that lets users select different factors and see how they affect the Exam_Score.
+
+This script performs a complete analysis and visualization of the student performance dataset. Remember to install the required packages, such as dash, matplotlib, seaborn, pandas, and plotly, before running the script. Verify that your CSV file is suitably formatted and accessible.
+
+
+**The code you submitted does data analysis, visualization, and creates an interactive dashboard by utilizing a number of essential tools and libraries. The primary tools utilized are as follows:**
+
+      1. Dash:  a web framework for creating interactive Python dashboards. This code generates a dynamic dashboard that allows users to examine visualizations and filter data according to specific factors.
+      
+      2. Various Dash Bootstrap Elements: a collection of Bootstrap elements for Dash to improve the dashboard's appearance and organization.
+      
+      3. Tools/mpl_toolkits.mplot3d: used with Matplotlib to produce three-dimensional scatter plots.
+
+      
